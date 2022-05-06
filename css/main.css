@@ -390,6 +390,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: bisque;
 }
 
 main {
@@ -418,8 +419,29 @@ img {
 }
 
 .container {
-  width: 1380px;
+  width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 50px 20px;
+}
+
+.table {
+  padding: 50px 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: sans-serif;
+  border: 2px solid black;
+  color: indigo;
+}
+
+td {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

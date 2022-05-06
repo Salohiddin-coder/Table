@@ -1,0 +1,20 @@
+.table {
+  padding: 50px 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: sans-serif;
+  border: 2px solid black;
+  color: indigo;
+}
+
+td {
+  text-align: center;
+}
